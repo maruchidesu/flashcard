@@ -14,6 +14,8 @@ def get_pasted_info():
     with io.open("lesson-data.json","r",encoding="utf8") as f:
         data = f.read()
     data = data.splitlines()
+    data = [i for i in data if i != '']
+    data = [i.strip() for i in data]
     return data 
 
 def create_dict(vocab):
@@ -31,16 +33,20 @@ def get_data(file):
         return data
     
 def main():
-    while True:
-        user_data = get_pasted_info()
-        lesson_info = create_dict(user_data)
-        open_data = get_data("lesson-data.json")
-        lesson_titles = [i.lower() for i in open_data]
-        while True:
-            title = input("enter the title of the lesson ").lower
-            if title in lesson_titles:
-                print(f"the lesson is already there choose another title ")
-                continue
-            break
-        
+    user_data = get_pasted_info()
+    lesson_info = create_dict(user_data)
+    title = input("enter the title of the lesson ")
+    lesson = {}
+    lesson[title] = lesson_info
+    print(lesson_info)
+main()
 
+
+
+
+        # lesson_titles = [i.lower() for i in open_data]
+        # while True:
+        #     if title in lesson_titles:
+        #         print(f"the lesson is already there choose another title ")
+        #         continue
+        #     break
