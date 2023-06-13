@@ -1,0 +1,78 @@
+[
+  [
+    {
+      "title": "numbers",
+      "date_visited": "not visited",
+      "times_viewed": 0
+    },
+    [
+      {
+        "id": "09827509870",
+        "target": "uno",
+        "native": "one",
+        "difficult": false,
+        "easy": false
+      },
+      {
+        "id": "682709870689",
+        "target": "dos",
+        "native": "two",
+        "difficult": false,
+        "easy": false
+      }
+    ]
+  ],
+  [
+    {
+      "title": "colors",
+      "date_visited": "not visited",
+      "times_viewed": 0
+    },
+    [
+      {
+        "id": "09648074698798",
+        "target": "verde",
+        "native": "green",
+        "difficult": false,
+        "easy": false
+      },
+      {
+        "id": "2069872038",
+        "target": "red",
+        "native": "roja",
+        "difficult": false,
+        "easy": false
+      }
+    ]
+  ],
+  [
+    {
+      "date_visited": "not visited",
+      "times_viewed": 0,
+      "title": "room"
+    },
+    [
+      {
+        "difficult": false,
+        "easy": false,
+        "id": "92ee758a-f06c-4e55-b6a9-18891a4715e1",
+        "target": "clock",
+        "native": "toke"
+      },
+      {
+        "difficult": false,
+        "easy": false,
+        "id": "081e22d3-76ff-4425-ba60-75c3f9c0608f",
+        "target": "chair",
+        "native": "isu"
+      },
+      {
+        "difficult": false,
+        "easy": false,
+        "id": "bfd7cee8-a27f-4e58-84d4-740ae21ebae6",
+        "target": "table",
+        "native": "tsukue"
+      }
+    ]
+  ]
+]
